@@ -1,0 +1,130 @@
+2025-12-03 10:34:12,271 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:370] - INFO: 
+Model training started for property: III_Equally_Distributed_Base
+2025-12-03 10:34:12,271 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:120] - INFO: 
++------------+-------+
+| Parameter  | Value |
++------------+-------+
+| cuda       | 2     |
++------------+-------+
+| datadir    | data  |
++------------+-------+
+| epoch      | 1000  |
++------------+-------+
+| seed       | [42]  |
++------------+-------+
+| channels   | 64    |
++------------+-------+
+| pretrain   | 0     |
++------------+-------+
+| alpha      | 1     |
++------------+-------+
+| r          | 0.420 |
++------------+-------+
+| batch_size | 1000  |
++------------+-------+
+| net_lr     | 0.001 |
++------------+-------+
+2025-12-03 10:34:12,272 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:375] - INFO: --- Starting training for III_Equally_Distributed_Base with seed 42 ---
+2025-12-03 10:34:17,100 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [1/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.3813 Causal_Loss: 0.6900 DIR_Penalty: 0.000001 Spurious_Loss: 0.6913
+2025-12-03 10:34:17,104 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 1 with val_acc 0.6667
+2025-12-03 10:34:21,968 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [2/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.3285 Causal_Loss: 0.6632 DIR_Penalty: 0.000002 Spurious_Loss: 0.6653
+2025-12-03 10:34:26,713 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [3/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2886 Causal_Loss: 0.6424 DIR_Penalty: 0.000007 Spurious_Loss: 0.6462
+2025-12-03 10:34:31,665 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [4/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2675 Causal_Loss: 0.6316 DIR_Penalty: 0.000010 Spurious_Loss: 0.6359
+2025-12-03 10:34:36,453 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [5/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2589 Causal_Loss: 0.6229 DIR_Penalty: 0.000088 Spurious_Loss: 0.6358
+2025-12-03 10:34:41,217 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [6/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2607 Causal_Loss: 0.6200 DIR_Penalty: 0.000209 Spurious_Loss: 0.6404
+2025-12-03 10:34:45,959 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [7/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2602 Causal_Loss: 0.6249 DIR_Penalty: 0.000054 Spurious_Loss: 0.6353
+2025-12-03 10:34:50,738 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [8/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2491 Causal_Loss: 0.6141 DIR_Penalty: 0.000218 Spurious_Loss: 0.6348
+2025-12-03 10:34:55,471 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [9/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2521 Causal_Loss: 0.6178 DIR_Penalty: 0.000146 Spurious_Loss: 0.6342
+2025-12-03 10:35:00,202 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [10/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2456 Causal_Loss: 0.6165 DIR_Penalty: 0.000083 Spurious_Loss: 0.6290
+2025-12-03 10:35:04,999 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [11/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2522 Causal_Loss: 0.6196 DIR_Penalty: 0.000088 Spurious_Loss: 0.6325
+2025-12-03 10:35:09,758 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [12/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2450 Causal_Loss: 0.6157 DIR_Penalty: 0.000111 Spurious_Loss: 0.6292
+2025-12-03 10:35:14,622 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [13/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2499 Causal_Loss: 0.6153 DIR_Penalty: 0.000197 Spurious_Loss: 0.6344
+2025-12-03 10:35:19,555 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [14/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2435 Causal_Loss: 0.6116 DIR_Penalty: 0.000203 Spurious_Loss: 0.6317
+2025-12-03 10:35:24,429 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [15/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2421 Causal_Loss: 0.6131 DIR_Penalty: 0.000126 Spurious_Loss: 0.6289
+2025-12-03 10:35:29,311 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [16/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Total_Loss: 1.2488 Causal_Loss: 0.6155 DIR_Penalty: 0.000170 Spurious_Loss: 0.6331
+2025-12-03 10:35:34,039 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [17/1000] Train_Acc: 0.6867 Val_Acc: 0.6823 | Total_Loss: 1.2396 Causal_Loss: 0.6095 DIR_Penalty: 0.000260 Spurious_Loss: 0.6298
+2025-12-03 10:35:34,043 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 17 with val_acc 0.6823
+2025-12-03 10:35:38,776 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [18/1000] Train_Acc: 0.6867 Val_Acc: 0.6823 | Total_Loss: 1.2425 Causal_Loss: 0.6122 DIR_Penalty: 0.000167 Spurious_Loss: 0.6302
+2025-12-03 10:35:43,480 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [19/1000] Train_Acc: 0.7323 Val_Acc: 0.7393 | Total_Loss: 1.2380 Causal_Loss: 0.6101 DIR_Penalty: 0.000158 Spurious_Loss: 0.6278
+2025-12-03 10:35:43,484 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 19 with val_acc 0.7393
+2025-12-03 10:35:48,224 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [20/1000] Train_Acc: 0.7870 Val_Acc: 0.7897 | Total_Loss: 1.2422 Causal_Loss: 0.6106 DIR_Penalty: 0.000222 Spurious_Loss: 0.6313
+2025-12-03 10:35:48,228 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 20 with val_acc 0.7897
+2025-12-03 10:35:52,947 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [21/1000] Train_Acc: 0.7870 Val_Acc: 0.7897 | Total_Loss: 1.2396 Causal_Loss: 0.6098 DIR_Penalty: 0.000199 Spurious_Loss: 0.6296
+2025-12-03 10:35:57,658 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [22/1000] Train_Acc: 0.7870 Val_Acc: 0.7897 | Total_Loss: 1.2417 Causal_Loss: 0.6126 DIR_Penalty: 0.000228 Spurious_Loss: 0.6289
+2025-12-03 10:36:02,357 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [23/1000] Train_Acc: 0.7510 Val_Acc: 0.7633 | Total_Loss: 1.2399 Causal_Loss: 0.6095 DIR_Penalty: 0.000220 Spurious_Loss: 0.6302
+2025-12-03 10:36:07,064 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [24/1000] Train_Acc: 0.8450 Val_Acc: 0.8410 | Total_Loss: 1.2321 Causal_Loss: 0.6068 DIR_Penalty: 0.000194 Spurious_Loss: 0.6250
+2025-12-03 10:36:07,068 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 24 with val_acc 0.8410
+2025-12-03 10:36:11,803 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [25/1000] Train_Acc: 0.8253 Val_Acc: 0.8253 | Total_Loss: 1.2428 Causal_Loss: 0.6071 DIR_Penalty: 0.000405 Spurious_Loss: 0.6352
+2025-12-03 10:36:16,515 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [26/1000] Train_Acc: 0.8087 Val_Acc: 0.8090 | Total_Loss: 1.2362 Causal_Loss: 0.6063 DIR_Penalty: 0.000278 Spurious_Loss: 0.6296
+2025-12-03 10:36:21,270 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [27/1000] Train_Acc: 0.8743 Val_Acc: 0.8760 | Total_Loss: 1.2382 Causal_Loss: 0.6062 DIR_Penalty: 0.000335 Spurious_Loss: 0.6317
+2025-12-03 10:36:21,274 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 27 with val_acc 0.8760
+2025-12-03 10:36:26,251 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [28/1000] Train_Acc: 0.8610 Val_Acc: 0.8650 | Total_Loss: 1.2364 Causal_Loss: 0.6050 DIR_Penalty: 0.000347 Spurious_Loss: 0.6310
+2025-12-03 10:36:31,170 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [29/1000] Train_Acc: 0.8610 Val_Acc: 0.8650 | Total_Loss: 1.2224 Causal_Loss: 0.5991 DIR_Penalty: 0.000291 Spurious_Loss: 0.6230
+2025-12-03 10:36:36,064 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [30/1000] Train_Acc: 0.8777 Val_Acc: 0.8813 | Total_Loss: 1.2363 Causal_Loss: 0.6110 DIR_Penalty: 0.000105 Spurious_Loss: 0.6253
+2025-12-03 10:36:36,068 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 30 with val_acc 0.8813
+2025-12-03 10:36:40,845 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [31/1000] Train_Acc: 0.8763 Val_Acc: 0.8767 | Total_Loss: 1.2371 Causal_Loss: 0.6113 DIR_Penalty: 0.000114 Spurious_Loss: 0.6258
+2025-12-03 10:36:45,646 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [32/1000] Train_Acc: 0.8910 Val_Acc: 0.8923 | Total_Loss: 1.2368 Causal_Loss: 0.6057 DIR_Penalty: 0.000356 Spurious_Loss: 0.6308
+2025-12-03 10:36:45,650 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 32 with val_acc 0.8923
+2025-12-03 10:36:50,465 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [33/1000] Train_Acc: 0.8450 Val_Acc: 0.8410 | Total_Loss: 1.2373 Causal_Loss: 0.6079 DIR_Penalty: 0.000240 Spurious_Loss: 0.6291
+2025-12-03 10:36:55,223 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [34/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2331 Causal_Loss: 0.6057 DIR_Penalty: 0.000323 Spurious_Loss: 0.6270
+2025-12-03 10:36:59,972 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [35/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2342 Causal_Loss: 0.6041 DIR_Penalty: 0.000336 Spurious_Loss: 0.6297
+2025-12-03 10:37:04,711 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [36/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2232 Causal_Loss: 0.5957 DIR_Penalty: 0.000502 Spurious_Loss: 0.6270
+2025-12-03 10:37:09,448 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [37/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2339 Causal_Loss: 0.6025 DIR_Penalty: 0.000498 Spurious_Loss: 0.6309
+2025-12-03 10:37:14,191 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [38/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2301 Causal_Loss: 0.5987 DIR_Penalty: 0.000520 Spurious_Loss: 0.6309
+2025-12-03 10:37:18,922 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [39/1000] Train_Acc: 0.8777 Val_Acc: 0.8813 | Total_Loss: 1.2269 Causal_Loss: 0.5990 DIR_Penalty: 0.000429 Spurious_Loss: 0.6275
+2025-12-03 10:37:23,838 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [40/1000] Train_Acc: 0.8763 Val_Acc: 0.8767 | Total_Loss: 1.2297 Causal_Loss: 0.6015 DIR_Penalty: 0.000356 Spurious_Loss: 0.6278
+2025-12-03 10:37:28,628 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [41/1000] Train_Acc: 0.8963 Val_Acc: 0.8950 | Total_Loss: 1.2283 Causal_Loss: 0.6011 DIR_Penalty: 0.000387 Spurious_Loss: 0.6268
+2025-12-03 10:37:28,632 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 41 with val_acc 0.8950
+2025-12-03 10:37:33,367 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [42/1000] Train_Acc: 0.8963 Val_Acc: 0.8950 | Total_Loss: 1.2333 Causal_Loss: 0.6060 DIR_Penalty: 0.000222 Spurious_Loss: 0.6271
+2025-12-03 10:37:38,094 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [43/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2270 Causal_Loss: 0.6047 DIR_Penalty: 0.000196 Spurious_Loss: 0.6221
+2025-12-03 10:37:42,834 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [44/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2282 Causal_Loss: 0.6048 DIR_Penalty: 0.000172 Spurious_Loss: 0.6233
+2025-12-03 10:37:47,590 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [45/1000] Train_Acc: 0.8910 Val_Acc: 0.8923 | Total_Loss: 1.2296 Causal_Loss: 0.6041 DIR_Penalty: 0.000252 Spurious_Loss: 0.6253
+2025-12-03 10:37:52,343 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [46/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2336 Causal_Loss: 0.6075 DIR_Penalty: 0.000229 Spurious_Loss: 0.6259
+2025-12-03 10:37:52,348 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 46 with val_acc 0.9000
+2025-12-03 10:37:57,095 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [47/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2234 Causal_Loss: 0.6036 DIR_Penalty: 0.000172 Spurious_Loss: 0.6196
+2025-12-03 10:38:01,861 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [48/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2240 Causal_Loss: 0.5996 DIR_Penalty: 0.000312 Spurious_Loss: 0.6241
+2025-12-03 10:38:06,588 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [49/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2214 Causal_Loss: 0.6023 DIR_Penalty: 0.000169 Spurious_Loss: 0.6190
+2025-12-03 10:38:11,337 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [50/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2277 Causal_Loss: 0.5989 DIR_Penalty: 0.000472 Spurious_Loss: 0.6283
+2025-12-03 10:38:16,081 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [51/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2206 Causal_Loss: 0.5998 DIR_Penalty: 0.000270 Spurious_Loss: 0.6206
+2025-12-03 10:38:16,086 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 51 with val_acc 0.9157
+2025-12-03 10:38:20,939 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [52/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2260 Causal_Loss: 0.6027 DIR_Penalty: 0.000257 Spurious_Loss: 0.6230
+2025-12-03 10:38:25,633 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [53/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2284 Causal_Loss: 0.6025 DIR_Penalty: 0.000299 Spurious_Loss: 0.6257
+2025-12-03 10:38:30,322 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [54/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2327 Causal_Loss: 0.6089 DIR_Penalty: 0.000132 Spurious_Loss: 0.6236
+2025-12-03 10:38:35,003 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [55/1000] Train_Acc: 0.9210 Val_Acc: 0.9213 | Total_Loss: 1.2216 Causal_Loss: 0.6036 DIR_Penalty: 0.000135 Spurious_Loss: 0.6179
+2025-12-03 10:38:35,007 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 55 with val_acc 0.9213
+2025-12-03 10:38:39,733 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [56/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2215 Causal_Loss: 0.6017 DIR_Penalty: 0.000204 Spurious_Loss: 0.6195
+2025-12-03 10:38:44,446 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [57/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2214 Causal_Loss: 0.6085 DIR_Penalty: 0.000026 Spurious_Loss: 0.6129
+2025-12-03 10:38:49,185 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [58/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2252 Causal_Loss: 0.5996 DIR_Penalty: 0.000331 Spurious_Loss: 0.6253
+2025-12-03 10:38:53,959 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [59/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2198 Causal_Loss: 0.5960 DIR_Penalty: 0.000415 Spurious_Loss: 0.6234
+2025-12-03 10:38:58,684 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [60/1000] Train_Acc: 0.9743 Val_Acc: 0.9747 | Total_Loss: 1.2319 Causal_Loss: 0.6093 DIR_Penalty: 0.000106 Spurious_Loss: 0.6225
+2025-12-03 10:38:58,688 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 60 with val_acc 0.9747
+2025-12-03 10:39:03,449 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [61/1000] Train_Acc: 0.8963 Val_Acc: 0.8950 | Total_Loss: 1.2229 Causal_Loss: 0.6054 DIR_Penalty: 0.000077 Spurious_Loss: 0.6174
+2025-12-03 10:39:08,203 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [62/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2234 Causal_Loss: 0.5965 DIR_Penalty: 0.000455 Spurious_Loss: 0.6264
+2025-12-03 10:39:12,938 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [63/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2261 Causal_Loss: 0.6023 DIR_Penalty: 0.000246 Spurious_Loss: 0.6235
+2025-12-03 10:39:17,823 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [64/1000] Train_Acc: 0.8763 Val_Acc: 0.8767 | Total_Loss: 1.2336 Causal_Loss: 0.6107 DIR_Penalty: 0.000095 Spurious_Loss: 0.6228
+2025-12-03 10:39:22,569 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [65/1000] Train_Acc: 0.9017 Val_Acc: 0.9007 | Total_Loss: 1.2257 Causal_Loss: 0.6038 DIR_Penalty: 0.000186 Spurious_Loss: 0.6216
+2025-12-03 10:39:27,304 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [66/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2273 Causal_Loss: 0.6008 DIR_Penalty: 0.000339 Spurious_Loss: 0.6261
+2025-12-03 10:39:32,045 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [67/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2176 Causal_Loss: 0.6025 DIR_Penalty: 0.000095 Spurious_Loss: 0.6150
+2025-12-03 10:39:36,800 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [68/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2252 Causal_Loss: 0.6055 DIR_Penalty: 0.000136 Spurious_Loss: 0.6195
+2025-12-03 10:39:41,563 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [69/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2274 Causal_Loss: 0.6040 DIR_Penalty: 0.000189 Spurious_Loss: 0.6232
+2025-12-03 10:39:46,301 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [70/1000] Train_Acc: 0.8797 Val_Acc: 0.8787 | Total_Loss: 1.2293 Causal_Loss: 0.6024 DIR_Penalty: 0.000297 Spurious_Loss: 0.6266
+2025-12-03 10:39:51,042 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [71/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2266 Causal_Loss: 0.6037 DIR_Penalty: 0.000208 Spurious_Loss: 0.6227
+2025-12-03 10:39:55,765 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [72/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2267 Causal_Loss: 0.6017 DIR_Penalty: 0.000313 Spurious_Loss: 0.6247
+2025-12-03 10:40:00,505 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [73/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2204 Causal_Loss: 0.5974 DIR_Penalty: 0.000345 Spurious_Loss: 0.6226
+2025-12-03 10:40:05,215 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [74/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2243 Causal_Loss: 0.6001 DIR_Penalty: 0.000298 Spurious_Loss: 0.6238
+2025-12-03 10:40:10,009 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [75/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2229 Causal_Loss: 0.5973 DIR_Penalty: 0.000439 Spurious_Loss: 0.6252
+2025-12-03 10:40:14,914 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [76/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2206 Causal_Loss: 0.6041 DIR_Penalty: 0.000130 Spurious_Loss: 0.6164
+2025-12-03 10:40:19,660 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [77/1000] Train_Acc: 0.9207 Val_Acc: 0.9157 | Total_Loss: 1.2188 Causal_Loss: 0.6014 DIR_Penalty: 0.000128 Spurious_Loss: 0.6172
+2025-12-03 10:40:24,423 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [78/1000] Train_Acc: 0.9407 Val_Acc: 0.9370 | Total_Loss: 1.2171 Causal_Loss: 0.5993 DIR_Penalty: 0.000221 Spurious_Loss: 0.6175
+2025-12-03 10:40:29,167 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [79/1000] Train_Acc: 0.8843 Val_Acc: 0.8837 | Total_Loss: 1.2114 Causal_Loss: 0.5929 DIR_Penalty: 0.000324 Spurious_Loss: 0.6182
+2025-12-03 10:40:33,972 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [80/1000] Train_Acc: 0.9010 Val_Acc: 0.9000 | Total_Loss: 1.2190 Causal_Loss: 0.5980 DIR_Penalty: 0.000290 Spurious_Loss: 0.6207
+2025-12-03 10:40:38,717 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:477] - INFO: Epoch [81/1000] Train_Acc: 1.0000 Val_Acc: 1.0000 | Total_Loss: 1.2171 Causal_Loss: 0.6023 DIR_Penalty: 0.000182 Spurious_Loss: 0.6146
+2025-12-03 10:40:38,721 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:491] - INFO: Best model saved at epoch 81 with val_acc 1.0000
+2025-12-03 10:40:38,721 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:501] - INFO: Validation accuracy reached 1.0, stopping training.
+2025-12-03 10:40:43,318 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:519] - INFO: Legjobb modell pontosságai III_Equally_Distributed_Base esetén, seed 42:
+2025-12-03 10:40:43,318 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:520] - INFO:   Train Accuracy: 1.0000
+2025-12-03 10:40:43,318 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:521] - INFO:   Val Accuracy: 1.0000
+2025-12-03 10:40:43,319 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:522] - INFO:   Test Accuracy: 1.0000
+2025-12-03 10:40:43,319 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:538] - INFO: 
+=== Eredmények az III_Equally_Distributed_Base attribútumhoz ===
+2025-12-03 10:40:43,319 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/DIR.py[line:544] - INFO: Train Accuracy: 1.0000  Val Accuracy: 1.0000  Test Accuracy: 1.0000

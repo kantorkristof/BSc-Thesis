@@ -1,0 +1,7 @@
+*.pyc
+DIRR/data
+DIRR/local
+.vscode/
+.gitignore.swp
+ipython/local
+kaggle

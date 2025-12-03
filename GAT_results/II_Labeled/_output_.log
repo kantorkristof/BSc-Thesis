@@ -1,0 +1,63 @@
+2025-12-03 10:54:58,510 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:182] - INFO: 
+Model training started for property: II_Labeled
+2025-12-03 10:54:58,510 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:97] - INFO: 
++------------+-------+
+| Parameter  | Value |
++------------+-------+
+| cuda       | 2     |
++------------+-------+
+| datadir    | data  |
++------------+-------+
+| epoch      | 1000  |
++------------+-------+
+| seed       | [42]  |
++------------+-------+
+| channels   | 64    |
++------------+-------+
+| heads      | 8     |
++------------+-------+
+| pretrain   | 0     |
++------------+-------+
+| batch_size | 1000  |
++------------+-------+
+| net_lr     | 0.001 |
++------------+-------+
+2025-12-03 10:54:58,511 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:187] - INFO: --- Starting training for II_Labeled with seed 42 ---
+2025-12-03 10:54:58,773 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [1/1000] Train_Acc: 0.3333 Val_Acc: 0.3333 | Loss: 0.7070
+2025-12-03 10:54:58,776 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:247] - INFO: Best model saved at epoch 1 with val_acc 0.3333
+2025-12-03 10:54:59,031 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [2/1000] Train_Acc: 0.3333 Val_Acc: 0.3333 | Loss: 0.6782
+2025-12-03 10:54:59,284 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [3/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6557
+2025-12-03 10:54:59,287 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:247] - INFO: Best model saved at epoch 3 with val_acc 0.6667
+2025-12-03 10:54:59,543 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [4/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6399
+2025-12-03 10:54:59,796 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [5/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6345
+2025-12-03 10:55:00,049 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [6/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6345
+2025-12-03 10:55:00,302 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [7/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6274
+2025-12-03 10:55:00,557 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [8/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6158
+2025-12-03 10:55:00,811 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [9/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.6063
+2025-12-03 10:55:01,065 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [10/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5950
+2025-12-03 10:55:01,316 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [11/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5780
+2025-12-03 10:55:01,577 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [12/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5635
+2025-12-03 10:55:01,831 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [13/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5465
+2025-12-03 10:55:02,087 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [14/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5306
+2025-12-03 10:55:02,342 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [15/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.5137
+2025-12-03 10:55:02,597 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [16/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4966
+2025-12-03 10:55:02,850 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [17/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4841
+2025-12-03 10:55:03,104 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [18/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4675
+2025-12-03 10:55:03,358 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [19/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4579
+2025-12-03 10:55:03,613 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [20/1000] Train_Acc: 0.8130 Val_Acc: 0.8173 | Loss: 0.4489
+2025-12-03 10:55:03,616 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:247] - INFO: Best model saved at epoch 20 with val_acc 0.8173
+2025-12-03 10:55:03,871 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [21/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4389
+2025-12-03 10:55:04,124 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [22/1000] Train_Acc: 0.8520 Val_Acc: 0.8423 | Loss: 0.4347
+2025-12-03 10:55:04,126 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:247] - INFO: Best model saved at epoch 22 with val_acc 0.8423
+2025-12-03 10:55:04,381 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [23/1000] Train_Acc: 0.6667 Val_Acc: 0.6667 | Loss: 0.4310
+2025-12-03 10:55:04,638 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [24/1000] Train_Acc: 0.7010 Val_Acc: 0.6990 | Loss: 0.4299
+2025-12-03 10:55:04,893 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:238] - INFO: Epoch [25/1000] Train_Acc: 1.0000 Val_Acc: 1.0000 | Loss: 0.4171
+2025-12-03 10:55:04,896 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:247] - INFO: Best model saved at epoch 25 with val_acc 1.0000
+2025-12-03 10:55:04,896 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:256] - INFO: Validation accuracy reached 1.0, stopping training.
+2025-12-03 10:55:05,137 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:269] - INFO: Legjobb modell pontosságai II_Labeled esetén, seed 42:
+2025-12-03 10:55:05,137 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:270] - INFO:   Train Accuracy: 1.0000
+2025-12-03 10:55:05,138 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:271] - INFO:   Val Accuracy: 1.0000
+2025-12-03 10:55:05,138 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:272] - INFO:   Test Accuracy: 0.8860
+2025-12-03 10:55:05,138 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:288] - INFO: 
+=== Eredmények az II_Labeled attribútumhoz ===
+2025-12-03 10:55:05,138 - /home/kantorkristof/git/neurips-polymer/I_Experiment-Synthetic/GNN/GAT.py[line:294] - INFO: Train Accuracy: 1.0000 Val Accuracy: 1.0000 Test Accuracy: 0.8860
