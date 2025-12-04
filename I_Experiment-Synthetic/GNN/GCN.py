@@ -129,7 +129,7 @@ def load_new_dataset(base_dir, attribute_name):
 
 def main():
     parser = argparse.ArgumentParser(description='GCN for Binary Classification')
-    parser.add_argument('--cuda', default=7, type=int, help='cuda device')
+    parser.add_argument('--cuda', default=2, type=int, help='cuda device')
     parser.add_argument('--datadir', default='data', type=str, help='directory for datasets.')
     parser.add_argument('--epoch', default=1000, type=int, help='training iterations')
     parser.add_argument('--seed', nargs='?', default='[42]', help='random seed')
