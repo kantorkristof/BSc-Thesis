@@ -1,0 +1,173 @@
+2025-12-06 18:03:41,014 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:190] - INFO: 
+Model training started for property: Avg_Travel_Time_10_km_CC (MAPE metric)
+2025-12-06 18:03:41,014 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:101] - INFO: 
++------------+-------+
+| Parameter  | Value |
++------------+-------+
+| cuda       | 3     |
++------------+-------+
+| datadir    | data  |
++------------+-------+
+| epoch      | 1000  |
++------------+-------+
+| seed       | [42]  |
++------------+-------+
+| channels   | 64    |
++------------+-------+
+| pretrain   | 0     |
++------------+-------+
+| batch_size | 32    |
++------------+-------+
+| net_lr     | 0.001 |
++------------+-------+
+2025-12-06 18:03:41,015 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:195] - INFO: --- Starting training for Avg_Travel_Time_10_km_CC with seed 42 ---
+2025-12-06 18:03:42,749 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [1/1000] Train_MAPE: 99.946370% Val_MAPE: 99.944922% | Loss: 99.979029
+2025-12-06 18:03:42,756 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 1 with val_mape 99.944922%
+2025-12-06 18:03:43,368 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [2/1000] Train_MAPE: 99.857504% Val_MAPE: 99.858852% | Loss: 99.918455
+2025-12-06 18:03:43,371 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 2 with val_mape 99.858852%
+2025-12-06 18:03:43,952 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [3/1000] Train_MAPE: 99.635196% Val_MAPE: 99.644139% | Loss: 99.767541
+2025-12-06 18:03:43,955 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 3 with val_mape 99.644139%
+2025-12-06 18:03:44,447 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [4/1000] Train_MAPE: 99.167613% Val_MAPE: 99.190788% | Loss: 99.462133
+2025-12-06 18:03:44,449 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 4 with val_mape 99.190788%
+2025-12-06 18:03:44,935 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [5/1000] Train_MAPE: 98.390064% Val_MAPE: 98.442044% | Loss: 98.851002
+2025-12-06 18:03:44,938 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 5 with val_mape 98.442044%
+2025-12-06 18:03:45,400 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [6/1000] Train_MAPE: 97.105086% Val_MAPE: 97.199672% | Loss: 97.790847
+2025-12-06 18:03:45,402 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 6 with val_mape 97.199672%
+2025-12-06 18:03:45,850 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [7/1000] Train_MAPE: 94.994493% Val_MAPE: 95.155490% | Loss: 96.081789
+2025-12-06 18:03:45,853 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 7 with val_mape 95.155490%
+2025-12-06 18:03:46,419 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [8/1000] Train_MAPE: 92.137195% Val_MAPE: 92.368341% | Loss: 93.313706
+2025-12-06 18:03:46,421 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 8 with val_mape 92.368341%
+2025-12-06 18:03:46,886 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [9/1000] Train_MAPE: 88.145194% Val_MAPE: 88.443555% | Loss: 89.415380
+2025-12-06 18:03:46,889 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 9 with val_mape 88.443555%
+2025-12-06 18:03:47,388 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [10/1000] Train_MAPE: 80.795972% Val_MAPE: 81.258881% | Loss: 83.736641
+2025-12-06 18:03:47,390 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 10 with val_mape 81.258881%
+2025-12-06 18:03:47,847 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [11/1000] Train_MAPE: 70.557484% Val_MAPE: 71.222086% | Loss: 76.078731
+2025-12-06 18:03:47,849 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 11 with val_mape 71.222086%
+2025-12-06 18:03:48,276 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [12/1000] Train_MAPE: 58.075099% Val_MAPE: 59.036574% | Loss: 64.921461
+2025-12-06 18:03:48,278 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 12 with val_mape 59.036574%
+2025-12-06 18:03:48,835 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [13/1000] Train_MAPE: 41.178601% Val_MAPE: 42.916564% | Loss: 52.894500
+2025-12-06 18:03:48,838 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 13 with val_mape 42.916564%
+2025-12-06 18:03:49,312 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [14/1000] Train_MAPE: 40.945535% Val_MAPE: 42.664890% | Loss: 39.119737
+2025-12-06 18:03:49,315 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 14 with val_mape 42.664890%
+2025-12-06 18:03:49,836 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [15/1000] Train_MAPE: 24.753749% Val_MAPE: 24.619527% | Loss: 28.196656
+2025-12-06 18:03:49,839 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 15 with val_mape 24.619527%
+2025-12-06 18:03:50,315 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [16/1000] Train_MAPE: 23.990678% Val_MAPE: 24.575655% | Loss: 23.476163
+2025-12-06 18:03:50,318 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 16 with val_mape 24.575655%
+2025-12-06 18:03:50,852 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [17/1000] Train_MAPE: 24.333748% Val_MAPE: 25.168317% | Loss: 23.254947
+2025-12-06 18:03:51,298 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [18/1000] Train_MAPE: 22.718849% Val_MAPE: 23.500683% | Loss: 22.815862
+2025-12-06 18:03:51,300 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 18 with val_mape 23.500683%
+2025-12-06 18:03:51,840 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [19/1000] Train_MAPE: 22.095548% Val_MAPE: 23.199354% | Loss: 22.205578
+2025-12-06 18:03:51,843 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 19 with val_mape 23.199354%
+2025-12-06 18:03:52,286 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [20/1000] Train_MAPE: 21.869589% Val_MAPE: 23.343229% | Loss: 22.128062
+2025-12-06 18:03:52,769 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [21/1000] Train_MAPE: 21.749819% Val_MAPE: 23.277854% | Loss: 22.306140
+2025-12-06 18:03:53,241 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [22/1000] Train_MAPE: 22.042352% Val_MAPE: 23.674008% | Loss: 22.568880
+2025-12-06 18:03:53,689 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [23/1000] Train_MAPE: 21.470780% Val_MAPE: 22.979655% | Loss: 21.931056
+2025-12-06 18:03:53,691 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:259] - INFO: Best model saved at epoch 23 with val_mape 22.979655%
+2025-12-06 18:03:54,167 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [24/1000] Train_MAPE: 21.206139% Val_MAPE: 23.176233% | Loss: 21.785919
+2025-12-06 18:03:54,600 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [25/1000] Train_MAPE: 21.022677% Val_MAPE: 23.526575% | Loss: 21.350625
+2025-12-06 18:03:55,077 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [26/1000] Train_MAPE: 22.890749% Val_MAPE: 25.894658% | Loss: 22.257537
+2025-12-06 18:03:55,544 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [27/1000] Train_MAPE: 20.979036% Val_MAPE: 24.282234% | Loss: 21.391006
+2025-12-06 18:03:56,020 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [28/1000] Train_MAPE: 20.797859% Val_MAPE: 24.212794% | Loss: 21.358542
+2025-12-06 18:03:56,464 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [29/1000] Train_MAPE: 21.291081% Val_MAPE: 25.227452% | Loss: 21.791741
+2025-12-06 18:03:56,913 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [30/1000] Train_MAPE: 20.606345% Val_MAPE: 24.715136% | Loss: 20.958977
+2025-12-06 18:03:57,365 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [31/1000] Train_MAPE: 20.907060% Val_MAPE: 24.338302% | Loss: 21.542702
+2025-12-06 18:03:57,833 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [32/1000] Train_MAPE: 20.671058% Val_MAPE: 24.439907% | Loss: 21.736262
+2025-12-06 18:03:58,277 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [33/1000] Train_MAPE: 20.199737% Val_MAPE: 24.810125% | Loss: 20.706766
+2025-12-06 18:03:58,695 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [34/1000] Train_MAPE: 20.129833% Val_MAPE: 24.801909% | Loss: 20.079393
+2025-12-06 18:03:59,147 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [35/1000] Train_MAPE: 20.736596% Val_MAPE: 26.072169% | Loss: 20.680296
+2025-12-06 18:03:59,565 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [36/1000] Train_MAPE: 20.114535% Val_MAPE: 25.322474% | Loss: 21.433022
+2025-12-06 18:04:00,031 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [37/1000] Train_MAPE: 20.356174% Val_MAPE: 25.902126% | Loss: 20.430442
+2025-12-06 18:04:00,478 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [38/1000] Train_MAPE: 20.118246% Val_MAPE: 25.163466% | Loss: 21.103918
+2025-12-06 18:04:00,901 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [39/1000] Train_MAPE: 20.294626% Val_MAPE: 25.195256% | Loss: 21.196131
+2025-12-06 18:04:01,340 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [40/1000] Train_MAPE: 21.455696% Val_MAPE: 26.361093% | Loss: 20.922035
+2025-12-06 18:04:01,771 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [41/1000] Train_MAPE: 21.774515% Val_MAPE: 25.271291% | Loss: 20.791664
+2025-12-06 18:04:02,236 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [42/1000] Train_MAPE: 20.147346% Val_MAPE: 25.059570% | Loss: 20.715779
+2025-12-06 18:04:02,721 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [43/1000] Train_MAPE: 20.446012% Val_MAPE: 24.884941% | Loss: 21.717878
+2025-12-06 18:04:03,211 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [44/1000] Train_MAPE: 20.906927% Val_MAPE: 24.540437% | Loss: 20.601143
+2025-12-06 18:04:03,655 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [45/1000] Train_MAPE: 20.228513% Val_MAPE: 24.799466% | Loss: 21.275186
+2025-12-06 18:04:04,121 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [46/1000] Train_MAPE: 20.057450% Val_MAPE: 25.136926% | Loss: 20.660938
+2025-12-06 18:04:04,584 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [47/1000] Train_MAPE: 20.330474% Val_MAPE: 25.914359% | Loss: 20.901853
+2025-12-06 18:04:05,090 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [48/1000] Train_MAPE: 19.918120% Val_MAPE: 25.568991% | Loss: 21.470336
+2025-12-06 18:04:05,549 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [49/1000] Train_MAPE: 21.243580% Val_MAPE: 27.187375% | Loss: 20.939885
+2025-12-06 18:04:06,008 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [50/1000] Train_MAPE: 20.475860% Val_MAPE: 25.733173% | Loss: 20.622032
+2025-12-06 18:04:06,486 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [51/1000] Train_MAPE: 20.263120% Val_MAPE: 26.466748% | Loss: 20.558396
+2025-12-06 18:04:06,938 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [52/1000] Train_MAPE: 20.078542% Val_MAPE: 26.304525% | Loss: 20.682589
+2025-12-06 18:04:07,420 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [53/1000] Train_MAPE: 20.884684% Val_MAPE: 25.838348% | Loss: 20.918194
+2025-12-06 18:04:07,866 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [54/1000] Train_MAPE: 20.279597% Val_MAPE: 26.214307% | Loss: 20.407206
+2025-12-06 18:04:08,313 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [55/1000] Train_MAPE: 21.597990% Val_MAPE: 25.965072% | Loss: 21.191495
+2025-12-06 18:04:08,757 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [56/1000] Train_MAPE: 19.920874% Val_MAPE: 25.749858% | Loss: 20.527891
+2025-12-06 18:04:09,215 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [57/1000] Train_MAPE: 20.332347% Val_MAPE: 25.867840% | Loss: 20.285162
+2025-12-06 18:04:09,660 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [58/1000] Train_MAPE: 19.857502% Val_MAPE: 26.479433% | Loss: 21.239398
+2025-12-06 18:04:10,131 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [59/1000] Train_MAPE: 19.933612% Val_MAPE: 26.159013% | Loss: 20.844121
+2025-12-06 18:04:10,633 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [60/1000] Train_MAPE: 20.039996% Val_MAPE: 26.738042% | Loss: 20.735626
+2025-12-06 18:04:11,084 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [61/1000] Train_MAPE: 19.814391% Val_MAPE: 26.562234% | Loss: 20.782156
+2025-12-06 18:04:11,541 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [62/1000] Train_MAPE: 20.551820% Val_MAPE: 27.621301% | Loss: 20.183247
+2025-12-06 18:04:11,998 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [63/1000] Train_MAPE: 20.365530% Val_MAPE: 26.136120% | Loss: 20.889689
+2025-12-06 18:04:12,438 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [64/1000] Train_MAPE: 20.988812% Val_MAPE: 26.181890% | Loss: 19.541286
+2025-12-06 18:04:12,874 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [65/1000] Train_MAPE: 19.822860% Val_MAPE: 26.280120% | Loss: 20.454010
+2025-12-06 18:04:13,303 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [66/1000] Train_MAPE: 21.144081% Val_MAPE: 26.275804% | Loss: 20.654932
+2025-12-06 18:04:13,772 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [67/1000] Train_MAPE: 20.479516% Val_MAPE: 27.560893% | Loss: 20.840425
+2025-12-06 18:04:14,236 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [68/1000] Train_MAPE: 21.303486% Val_MAPE: 27.329517% | Loss: 21.302598
+2025-12-06 18:04:14,726 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [69/1000] Train_MAPE: 21.511901% Val_MAPE: 26.200190% | Loss: 20.327134
+2025-12-06 18:04:15,183 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [70/1000] Train_MAPE: 19.919934% Val_MAPE: 25.882940% | Loss: 20.004324
+2025-12-06 18:04:15,656 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [71/1000] Train_MAPE: 20.191158% Val_MAPE: 26.035378% | Loss: 19.986296
+2025-12-06 18:04:16,153 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [72/1000] Train_MAPE: 20.333415% Val_MAPE: 27.716118% | Loss: 19.971162
+2025-12-06 18:04:16,612 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [73/1000] Train_MAPE: 20.806286% Val_MAPE: 28.441833% | Loss: 20.516814
+2025-12-06 18:04:17,096 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [74/1000] Train_MAPE: 19.975135% Val_MAPE: 26.180585% | Loss: 19.959633
+2025-12-06 18:04:17,552 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [75/1000] Train_MAPE: 19.730272% Val_MAPE: 26.372601% | Loss: 20.585594
+2025-12-06 18:04:17,991 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [76/1000] Train_MAPE: 20.109768% Val_MAPE: 27.248580% | Loss: 20.851737
+2025-12-06 18:04:18,457 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [77/1000] Train_MAPE: 20.599018% Val_MAPE: 26.337967% | Loss: 19.957853
+2025-12-06 18:04:18,929 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [78/1000] Train_MAPE: 19.763389% Val_MAPE: 26.541864% | Loss: 21.247086
+2025-12-06 18:04:19,385 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [79/1000] Train_MAPE: 21.909164% Val_MAPE: 28.782234% | Loss: 20.902324
+2025-12-06 18:04:19,865 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [80/1000] Train_MAPE: 20.442151% Val_MAPE: 25.922786% | Loss: 20.866648
+2025-12-06 18:04:20,325 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [81/1000] Train_MAPE: 20.792567% Val_MAPE: 26.037933% | Loss: 20.543930
+2025-12-06 18:04:20,782 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [82/1000] Train_MAPE: 19.808448% Val_MAPE: 26.312789% | Loss: 20.258117
+2025-12-06 18:04:21,249 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [83/1000] Train_MAPE: 19.879910% Val_MAPE: 26.402698% | Loss: 20.155587
+2025-12-06 18:04:21,705 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [84/1000] Train_MAPE: 20.080258% Val_MAPE: 26.041782% | Loss: 20.607135
+2025-12-06 18:04:22,145 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [85/1000] Train_MAPE: 19.723231% Val_MAPE: 26.665011% | Loss: 20.487757
+2025-12-06 18:04:22,591 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [86/1000] Train_MAPE: 19.686093% Val_MAPE: 26.322910% | Loss: 19.087396
+2025-12-06 18:04:23,048 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [87/1000] Train_MAPE: 19.774128% Val_MAPE: 26.289243% | Loss: 20.215740
+2025-12-06 18:04:23,516 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [88/1000] Train_MAPE: 19.746022% Val_MAPE: 26.421904% | Loss: 20.373844
+2025-12-06 18:04:23,952 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [89/1000] Train_MAPE: 19.923278% Val_MAPE: 26.953201% | Loss: 20.331158
+2025-12-06 18:04:24,395 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [90/1000] Train_MAPE: 19.692783% Val_MAPE: 26.662765% | Loss: 19.839857
+2025-12-06 18:04:24,880 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [91/1000] Train_MAPE: 19.790976% Val_MAPE: 26.335690% | Loss: 20.265441
+2025-12-06 18:04:25,337 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [92/1000] Train_MAPE: 19.797304% Val_MAPE: 26.324831% | Loss: 20.010872
+2025-12-06 18:04:25,816 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [93/1000] Train_MAPE: 19.697201% Val_MAPE: 26.777435% | Loss: 20.305238
+2025-12-06 18:04:26,268 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [94/1000] Train_MAPE: 20.343322% Val_MAPE: 27.919710% | Loss: 19.393540
+2025-12-06 18:04:26,758 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [95/1000] Train_MAPE: 19.634144% Val_MAPE: 26.719832% | Loss: 20.032587
+2025-12-06 18:04:27,220 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [96/1000] Train_MAPE: 19.694666% Val_MAPE: 26.441257% | Loss: 19.945431
+2025-12-06 18:04:27,685 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [97/1000] Train_MAPE: 19.914899% Val_MAPE: 26.589703% | Loss: 21.017275
+2025-12-06 18:04:28,139 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [98/1000] Train_MAPE: 19.720276% Val_MAPE: 26.413532% | Loss: 21.569504
+2025-12-06 18:04:28,601 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [99/1000] Train_MAPE: 20.048949% Val_MAPE: 26.869429% | Loss: 20.000658
+2025-12-06 18:04:29,065 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [100/1000] Train_MAPE: 20.028827% Val_MAPE: 26.097409% | Loss: 20.403846
+2025-12-06 18:04:29,520 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [101/1000] Train_MAPE: 21.442013% Val_MAPE: 26.415722% | Loss: 20.081402
+2025-12-06 18:04:29,981 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [102/1000] Train_MAPE: 19.790685% Val_MAPE: 26.447811% | Loss: 20.492486
+2025-12-06 18:04:30,437 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [103/1000] Train_MAPE: 20.272480% Val_MAPE: 26.589394% | Loss: 20.189707
+2025-12-06 18:04:30,882 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [104/1000] Train_MAPE: 20.373682% Val_MAPE: 25.833452% | Loss: 21.115061
+2025-12-06 18:04:31,334 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [105/1000] Train_MAPE: 19.733110% Val_MAPE: 26.215826% | Loss: 19.922409
+2025-12-06 18:04:31,790 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [106/1000] Train_MAPE: 20.633778% Val_MAPE: 25.908293% | Loss: 20.556178
+2025-12-06 18:04:32,241 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [107/1000] Train_MAPE: 19.727657% Val_MAPE: 25.943922% | Loss: 20.591296
+2025-12-06 18:04:32,694 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [108/1000] Train_MAPE: 21.256031% Val_MAPE: 28.029134% | Loss: 20.400368
+2025-12-06 18:04:33,156 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [109/1000] Train_MAPE: 19.909310% Val_MAPE: 25.818750% | Loss: 19.698277
+2025-12-06 18:04:33,610 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [110/1000] Train_MAPE: 19.649177% Val_MAPE: 25.969953% | Loss: 19.871880
+2025-12-06 18:04:34,057 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [111/1000] Train_MAPE: 19.737643% Val_MAPE: 25.992509% | Loss: 20.620406
+2025-12-06 18:04:34,511 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [112/1000] Train_MAPE: 19.668478% Val_MAPE: 26.125542% | Loss: 20.175956
+2025-12-06 18:04:34,966 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [113/1000] Train_MAPE: 19.611239% Val_MAPE: 26.248653% | Loss: 19.840697
+2025-12-06 18:04:35,432 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [114/1000] Train_MAPE: 19.617759% Val_MAPE: 26.248642% | Loss: 20.442861
+2025-12-06 18:04:35,893 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [115/1000] Train_MAPE: 19.705640% Val_MAPE: 26.317726% | Loss: 20.387703
+2025-12-06 18:04:36,391 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [116/1000] Train_MAPE: 19.727049% Val_MAPE: 26.273853% | Loss: 19.994927
+2025-12-06 18:04:36,903 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [117/1000] Train_MAPE: 19.751539% Val_MAPE: 26.550544% | Loss: 21.015089
+2025-12-06 18:04:37,383 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [118/1000] Train_MAPE: 19.998931% Val_MAPE: 26.204767% | Loss: 19.958170
+2025-12-06 18:04:37,845 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [119/1000] Train_MAPE: 19.774925% Val_MAPE: 26.481711% | Loss: 19.210309
+2025-12-06 18:04:38,322 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [120/1000] Train_MAPE: 19.759031% Val_MAPE: 26.105323% | Loss: 19.699458
+2025-12-06 18:04:38,793 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [121/1000] Train_MAPE: 19.604380% Val_MAPE: 26.203299% | Loss: 20.273034
+2025-12-06 18:04:39,259 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [122/1000] Train_MAPE: 19.781622% Val_MAPE: 26.343734% | Loss: 19.825426
+2025-12-06 18:04:39,737 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:249] - INFO: Epoch [123/1000] Train_MAPE: 20.126599% Val_MAPE: 26.311317% | Loss: 19.928594
+2025-12-06 18:04:39,737 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:269] - INFO: Early Stopping
+2025-12-06 18:04:40,054 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:281] - INFO: Best model Accuracy for Avg_Travel_Time_10_km_CC, seed 42:
+2025-12-06 18:04:40,054 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:282] - INFO:   Train MAPE: 21.470780%
+2025-12-06 18:04:40,054 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:283] - INFO:   Val MAPE:   22.979659%
+2025-12-06 18:04:40,054 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:284] - INFO:   Test MAPE:  23.023785%
+2025-12-06 18:04:40,054 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:300] - INFO: 
+=== Results for attribute Avg_Travel_Time_10_km_CC (MAPE) ===
+2025-12-06 18:04:40,055 - /home/kantorkristof/git/neurips-polymer/III_Experiment-Traffic-Prediction/GNN/GCN.py[line:306] - INFO: Train MAPE: 21.470781% Val MAPE: 22.979658% Test MAPE: 23.023785%

@@ -17,6 +17,11 @@ from texttable import Texttable
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+def mape_loss(pred, target, epsilon=1e-8):
+    pred = pred.view(-1)
+    target = target.float().view(-1)
+    return torch.mean(torch.abs((target - pred) / (target + epsilon))) * 100
+
 class Predictor(torch.nn.Module):
     def __init__(self, in_channels, hid_channels=64, num_outputs=1, conv_unit=2):
         super(Predictor, self).__init__()
@@ -63,7 +68,9 @@ class Predictor(torch.nn.Module):
             x = self.node_emb(x)
 
         for conv, batch_norm, relu in zip(self.convs, self.batch_norms, self.relus):
-            if edge_weight is not None:
+            if hasattr(conv, '__edge_mask__') and conv.__edge_mask__ is not None:
+                x = conv(x, edge_index)
+            elif edge_weight is not None:
                 x = conv(x, edge_index, edge_weight=edge_weight)
             else:
                 x = conv(x, edge_index)
@@ -239,26 +246,22 @@ def get_original_node_features(graph, edge_index):
 
 def load_new_dataset(base_dir, attribute_name):
     raw_dir = osp.join(base_dir, attribute_name)
-    train_data = torch.load(osp.join(raw_dir, 'train.pt'))
-    val_data = torch.load(osp.join(raw_dir, 'val.pt'))
-    test_data = torch.load(osp.join(raw_dir, 'test.pt'))
+    train_data = torch.load(osp.join(raw_dir, 'train.pt'), weights_only=False)
+    val_data = torch.load(osp.join(raw_dir, 'val.pt'), weights_only=False)
+    test_data = torch.load(osp.join(raw_dir, 'test.pt'), weights_only=False)
     return train_data, val_data, test_data
 
 def compute_interventional_risk_variance(causal_pred_list, non_causal_pred_list, labels):
-    criterion = nn.MSELoss(reduction='none')
-
     risks = []
 
     # Causal prediction risk
     for causal_pred in causal_pred_list:
-        loss_per_sample = criterion(causal_pred.view(-1), labels.float())
-        risk = loss_per_sample.mean()
+        risk = mape_loss(causal_pred, labels)
         risks.append(risk)
 
     # Non-causal prediction risk
     for non_causal_pred in non_causal_pred_list:
-        loss_per_sample = criterion(non_causal_pred.view(-1), labels.float())
-        risk = loss_per_sample.mean()
+        risk = mape_loss(non_causal_pred, labels)
         risks.append(risk)
 
     # If there is only one risk, the variance is 0
@@ -271,13 +274,11 @@ def compute_interventional_risk_variance(causal_pred_list, non_causal_pred_list,
     return variance
 
 def compute_dir_loss(causal_out, non_causal_out, labels, alpha):
-    criterion = nn.MSELoss()
-
     # R_causal: Causal loss
-    causal_loss = criterion(causal_out.view(-1), labels.float())
+    causal_loss = mape_loss(causal_out, labels)
 
     # R_non_causal: Non-causal loss
-    non_causal_loss = criterion(non_causal_out.view(-1), labels.float())
+    non_causal_loss = mape_loss(non_causal_out, labels)
 
     causal_pred_list = [causal_out]
     non_causal_pred_list = [non_causal_out]
@@ -292,15 +293,15 @@ def compute_dir_loss(causal_out, non_causal_out, labels, alpha):
 ######################################################################
 
 def main():
-    parser = argparse.ArgumentParser(description='Training for Graph Regression with Causal Feature Learning')
+    parser = argparse.ArgumentParser(description='Training for Graph Regression with Causal Feature Learning (MAPE)')
     parser.add_argument('--cuda', default=2, type=int, help='cuda device')
-    parser.add_argument('--datadir', default='data/NeurIPS', type=str, help='directory for datasets.')
+    parser.add_argument('--datadir', default='data', type=str, help='directory for datasets.')
     parser.add_argument('--epoch', default=1000, type=int, help='training iterations')
     parser.add_argument('--seed', nargs='?', default='[42]', help='random seed')
     parser.add_argument('--channels', default=64, type=int, help='width of network')
     parser.add_argument('--pretrain', default=0, type=int, help='pretrain epoch')
-    parser.add_argument('--alpha', default=1e-6, type=float, help='invariant loss')
-    parser.add_argument('--r', default=0.5, type=float, help='causal_ratio')
+    parser.add_argument('--alpha', default=1e-3, type=float, help='invariant loss')
+    parser.add_argument('--r', default=0.90, type=float, help='causal_ratio')
     parser.add_argument('--batch_size', default=32, type=int, help='batch size')
     parser.add_argument('--net_lr', default=1e-3, type=float, help='learning rate for the predictor')
     args = parser.parse_args()
@@ -320,7 +321,7 @@ def main():
     print(available_attributes)
 
     for attribute_name in available_attributes:
-        attr_results = {'train_mse': [], 'val_mse': [], 'test_mse': []}
+        attr_results = {'train_mape': [], 'val_mape': [], 'test_mape': []}
 
         train_data_list, val_data_list, test_data_list = load_new_dataset(data_base_dir, attribute_name)
         train_loader = DataLoader(train_data_list, batch_size=args.batch_size, shuffle=True)
@@ -334,7 +335,7 @@ def main():
         exp_dir = osp.join('DIR_results', experiment_name)
         os.makedirs(exp_dir, exist_ok=True)
         logger = Logger.init_logger(filename=exp_dir + '/_output_.log')
-        logger.info(f"\nModel training started for property: {attribute_name}")
+        logger.info(f"\nModel training started for property: {attribute_name} (MAPE metric)")
 
         args_print(args, logger)
         for seed in args.seed:
@@ -357,8 +358,7 @@ def main():
                 att_net.eval()
 
             def test_metrics(loader, att_net, predictor):
-                total_loss = 0.0
-                criterion = nn.MSELoss()
+                total_mape = 0.0
                 for graph in loader:
                     graph.to(device)
                     (causal_x, causal_edge_index, causal_edge_attr, causal_edge_weight, causal_batch), \
@@ -368,18 +368,18 @@ def main():
                     set_masks(causal_edge_weight, predictor)
                     out = predictor.get_causal_pred(
                         global_mean_pool(
-                            predictor.get_node_reps(x=causal_x_orig, edge_index=causal_edge_index, edge_attr=causal_edge_attr),
+                            predictor.get_node_reps(x=causal_x_orig, edge_index=causal_edge_index, edge_attr=None),
                             causal_batch
                         )
                     )
                     clear_masks(predictor)
-                    loss = criterion(out.view(-1), graph.y.float())
-                    total_loss += loss.item() * graph.y.size(0)
-                mse = total_loss / len(loader.dataset)
-                return mse
+                    mape = mape_loss(out, graph.y)
+                    total_mape += mape.item() * graph.y.size(0)
+                mape = total_mape / len(loader.dataset)
+                return mape
 
-            cnt, last_val_mse = 0, float('inf')
-            best_val_mse = float('inf')
+            cnt, last_val_mape = 0, float('inf')
+            best_val_mape = float('inf')
 
             for epoch in range(args.epoch):
                 train_mode()
@@ -400,13 +400,13 @@ def main():
                     non_causal_x_orig = get_original_node_features(graph, non_causal_edge_index)
 
                     set_masks(causal_edge_weight, g)
-                    causal_rep = g.get_node_reps(x=causal_x_orig, edge_index=causal_edge_index, edge_attr=causal_edge_attr)
+                    causal_rep = g.get_node_reps(x=causal_x_orig, edge_index=causal_edge_index, edge_attr=None)
                     causal_graph_x = global_mean_pool(causal_rep, causal_batch)
                     causal_out = g.get_causal_pred(causal_graph_x)
                     clear_masks(g)
 
                     set_masks(non_causal_edge_weight, g)
-                    non_causal_rep = g.get_node_reps(x=non_causal_x_orig, edge_index=non_causal_edge_index, edge_attr=non_causal_edge_attr).detach()
+                    non_causal_rep = g.get_node_reps(x=non_causal_x_orig, edge_index=non_causal_edge_index, edge_attr=None).detach()
                     non_causal_graph_x = global_mean_pool(non_causal_rep, non_causal_batch)
                     non_causal_out = g.get_non_causal_pred(non_causal_graph_x)
                     clear_masks(g)
@@ -428,8 +428,8 @@ def main():
                 # Validation
                 val_mode()
                 with torch.no_grad():
-                    train_mse = test_metrics(train_loader, att_net, g)
-                    val_mse = test_metrics(val_loader, att_net, g)
+                    train_mape = test_metrics(train_loader, att_net, g)
+                    val_mape = test_metrics(val_loader, att_net, g)
 
                 avg_total_loss = epoch_total_loss / num_batches
                 avg_causal_loss = epoch_causal_loss / num_batches
@@ -438,7 +438,7 @@ def main():
 
                 logger.info(
                     f"Epoch [{epoch+1}/{args.epoch}] "
-                    f"Train_MSE: {train_mse:.6f} Val_MSE: {val_mse:.6f} | "
+                    f"Train_MAPE: {train_mape:.6f}% Val_MAPE: {val_mape:.6f}% | "
                     f"Total_Loss: {avg_total_loss:.6f} "
                     f"Causal_Loss: {avg_causal_loss:.6f} "
                     f"DIR_Penalty: {avg_dir_penalty:.6f} "
@@ -446,59 +446,59 @@ def main():
                 )
 
                 # Save the best model
-                if val_mse < best_val_mse:
-                    best_val_mse = val_mse
+                if val_mape < best_val_mape:
+                    best_val_mape = val_mape
                     torch.save(g.state_dict(), osp.join(exp_dir, f'predictor.pt'))
                     torch.save(att_net.state_dict(), osp.join(exp_dir, f'rationale_generator.pt'))
-                    logger.info(f"Best model saved at epoch {epoch+1} with val_mse {val_mse:.6f}")
+                    logger.info(f"Best model saved at epoch {epoch+1} with val_mape {val_mape:.6f}%")
 
                 # Early stopping Mechanism
                 if epoch >= args.pretrain:
-                    if val_mse >= last_val_mse:
+                    if val_mape >= last_val_mape:
                         cnt += 1
                     else:
                         cnt = 0
-                        last_val_mse = val_mse
+                        last_val_mape = val_mape
                     if cnt >= 100:
                         logger.info("Early Stopping")
                         break
 
             # Load the best model
-            g.load_state_dict(torch.load(osp.join(exp_dir, f'predictor.pt')))
-            att_net.load_state_dict(torch.load(osp.join(exp_dir, f'rationale_generator.pt')))
+            g.load_state_dict(torch.load(osp.join(exp_dir, f'predictor.pt'), weights_only=False))
+            att_net.load_state_dict(torch.load(osp.join(exp_dir, f'rationale_generator.pt'), weights_only=False))
 
             # Evaluating the best model
             g.eval()
             att_net.eval()
             with torch.no_grad():
-                best_train_mse = test_metrics(train_loader, att_net, g)
-                best_val_mse = test_metrics(val_loader, att_net, g)
-                best_test_mse = test_metrics(test_loader, att_net, g)
+                best_train_mape = test_metrics(train_loader, att_net, g)
+                best_val_mape = test_metrics(val_loader, att_net, g)
+                best_test_mape = test_metrics(test_loader, att_net, g)
 
             logger.info(f"Best model Accuracy for {attribute_name}, seed {seed}:")
-            logger.info(f"  Train MSE: {best_train_mse:.6f}")
-            logger.info(f"  Val MSE: {best_val_mse:.6f}")
-            logger.info(f"  Test MSE: {best_test_mse:.6f}")
+            logger.info(f"  Train MAPE: {best_train_mape:.6f}%")
+            logger.info(f"  Val MAPE: {best_val_mape:.6f}%")
+            logger.info(f"  Test MAPE: {best_test_mape:.6f}%")
 
-            attr_results['train_mse'].append(best_train_mse)
-            attr_results['val_mse'].append(best_val_mse)
-            attr_results['test_mse'].append(best_test_mse)
+            attr_results['train_mape'].append(best_train_mape)
+            attr_results['val_mape'].append(best_val_mape)
+            attr_results['test_mape'].append(best_test_mape)
 
-        train_tensor = torch.tensor(attr_results['train_mse'])
-        val_tensor = torch.tensor(attr_results['val_mse'])
-        test_tensor = torch.tensor(attr_results['test_mse'])
+        train_tensor = torch.tensor(attr_results['train_mape'])
+        val_tensor = torch.tensor(attr_results['val_mape'])
+        test_tensor = torch.tensor(attr_results['test_mape'])
 
         all_results[attribute_name] = {
-            'train_mse': train_tensor,
-            'val_mse': val_tensor,
-            'test_mse': test_tensor
+            'train_mape': train_tensor,
+            'val_mape': val_tensor,
+            'test_mape': test_tensor
         }
 
-        logger.info(f"\n=== Results for attribute {attribute_name} ===")
+        logger.info(f"\n=== Results for attribute {attribute_name} (MAPE) ===")
         result_summary = (
-            f"Train MSE: {train_tensor.mean():.6f}  "
-            f"Val MSE: {val_tensor.mean():.6f}  "
-            f"Test MSE: {test_tensor.mean():.6f}"
+            f"Train MAPE: {train_tensor.mean():.6f}% "
+            f"Val MAPE: {val_tensor.mean():.6f}% "
+            f"Test MAPE: {test_tensor.mean():.6f}%"
         )
         logger.info(result_summary)
 

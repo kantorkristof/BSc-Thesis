@@ -126,7 +126,7 @@ def load_new_dataset(base_dir, attribute_name):
 def main():
     parser = argparse.ArgumentParser(description='GCN for Graph Regression')
     parser.add_argument('--cuda', default=3, type=int, help='cuda device')
-    parser.add_argument('--datadir', default='data/Lipophilicity', type=str, help='directory for datasets.')
+    parser.add_argument('--datadir', default='data/NeurIPS', type=str, help='directory for datasets.')
     parser.add_argument('--epoch', default=1000, type=int, help='training iterations')
     parser.add_argument('--seed', nargs='?', default='[42]', help='random seed')
     parser.add_argument('--channels', default=64, type=int, help='width of network')
@@ -160,7 +160,7 @@ def main():
         sample_data = next(iter(train_loader))
         in_channels = sample_data.x.size(1)
         experiment_name = f'{attribute_name}'
-        exp_dir = osp.join('GCN_results/Lipophilicity', experiment_name)
+        exp_dir = osp.join('GCN_results', experiment_name)
         os.makedirs(exp_dir, exist_ok=True)
         logger = Logger.init_logger(filename=exp_dir + '/_output_.log')
         logger.info(f"\nModel training started for property: {attribute_name}")
