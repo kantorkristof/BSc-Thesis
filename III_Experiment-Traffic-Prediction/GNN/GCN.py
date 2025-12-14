@@ -61,7 +61,6 @@ class GCN(torch.nn.Module):
             else:
                 edge_weight = None
 
-        # Node embedding
         if x.size(1) != self.hid_channels:
             x = self.node_emb(x)
 
@@ -144,7 +143,7 @@ def load_new_dataset(base_dir, attribute_name):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='GCN for Graph Regression (MAPE)')
+    parser = argparse.ArgumentParser(description='Traffic')
     parser.add_argument('--cuda', default=3, type=int, help='cuda device')
     parser.add_argument('--datadir', default='data', type=str, help='directory for datasets.')
     parser.add_argument('--epoch', default=1000, type=int, help='training iterations')

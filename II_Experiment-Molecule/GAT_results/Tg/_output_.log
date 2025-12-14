@@ -1,0 +1,276 @@
+2025-12-05 16:56:37,751 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:174] - INFO: 
+Model training started for property: Tg
+2025-12-05 16:56:37,752 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:85] - INFO: 
++------------+--------------+
+| Parameter  | Value        |
++------------+--------------+
+| cuda       | 5            |
++------------+--------------+
+| datadir    | data         |
++------------+--------------+
+| epoch      | 1000         |
++------------+--------------+
+| seed       | [42]         |
++------------+--------------+
+| channels   | 64           |
++------------+--------------+
+| heads      | 1            |
++------------+--------------+
+| pretrain   | 0            |
++------------+--------------+
+| batch_size | 32           |
++------------+--------------+
+| net_lr     | 0.001        |
++------------+--------------+
+2025-12-05 16:56:37,752 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:179] - INFO: --- Starting training for Tg with seed 42 ---
+2025-12-05 16:56:37,872 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [1/1000] Train_MSE: 21768.065964 Val_MSE: 19492.124691 | Loss: 21500.577441
+2025-12-05 16:56:37,874 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 1 with val_mse 19492.124691
+2025-12-05 16:56:37,990 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [2/1000] Train_MSE: 21616.321055 Val_MSE: 19360.181467 | Loss: 21651.734570
+2025-12-05 16:56:37,993 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 2 with val_mse 19360.181467
+2025-12-05 16:56:38,108 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [3/1000] Train_MSE: 21233.917937 Val_MSE: 19029.087427 | Loss: 20776.472510
+2025-12-05 16:56:38,110 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 3 with val_mse 19029.087427
+2025-12-05 16:56:38,226 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [4/1000] Train_MSE: 20443.899372 Val_MSE: 18353.706258 | Loss: 20617.920898
+2025-12-05 16:56:38,228 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 4 with val_mse 18353.706258
+2025-12-05 16:56:38,343 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [5/1000] Train_MSE: 19017.697054 Val_MSE: 17203.593479 | Loss: 18658.150586
+2025-12-05 16:56:38,345 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 5 with val_mse 17203.593479
+2025-12-05 16:56:38,480 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [6/1000] Train_MSE: 16274.040375 Val_MSE: 15151.476504 | Loss: 16117.792578
+2025-12-05 16:56:38,482 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 6 with val_mse 15151.476504
+2025-12-05 16:56:38,619 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [7/1000] Train_MSE: 12670.193763 Val_MSE: 12825.177638 | Loss: 12837.622144
+2025-12-05 16:56:38,621 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 7 with val_mse 12825.177638
+2025-12-05 16:56:38,756 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [8/1000] Train_MSE: 11260.335368 Val_MSE: 11990.185682 | Loss: 10829.718164
+2025-12-05 16:56:38,758 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 8 with val_mse 11990.185682
+2025-12-05 16:56:38,892 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [9/1000] Train_MSE: 10136.781986 Val_MSE: 11443.545782 | Loss: 9918.327002
+2025-12-05 16:56:38,894 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 9 with val_mse 11443.545782
+2025-12-05 16:56:39,009 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [10/1000] Train_MSE: 9579.934125 Val_MSE: 11446.519212 | Loss: 10030.661230
+2025-12-05 16:56:39,119 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [11/1000] Train_MSE: 10123.229463 Val_MSE: 11327.121587 | Loss: 10298.684180
+2025-12-05 16:56:39,121 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 11 with val_mse 11327.121587
+2025-12-05 16:56:39,237 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [12/1000] Train_MSE: 10543.204599 Val_MSE: 12188.463297 | Loss: 9525.364746
+2025-12-05 16:56:39,345 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [13/1000] Train_MSE: 9468.368846 Val_MSE: 11680.729212 | Loss: 9521.742627
+2025-12-05 16:56:39,455 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [14/1000] Train_MSE: 9438.250727 Val_MSE: 11449.795811 | Loss: 9324.225146
+2025-12-05 16:56:39,574 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [15/1000] Train_MSE: 9448.694778 Val_MSE: 11191.364171 | Loss: 9837.434131
+2025-12-05 16:56:39,577 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 15 with val_mse 11191.364171
+2025-12-05 16:56:39,692 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [16/1000] Train_MSE: 9344.295468 Val_MSE: 11324.693040 | Loss: 9449.196387
+2025-12-05 16:56:39,810 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [17/1000] Train_MSE: 9339.994089 Val_MSE: 11392.840472 | Loss: 9624.375000
+2025-12-05 16:56:39,930 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [18/1000] Train_MSE: 9342.033024 Val_MSE: 11433.583917 | Loss: 9340.412012
+2025-12-05 16:56:40,046 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [19/1000] Train_MSE: 9604.106400 Val_MSE: 11945.969011 | Loss: 9538.319580
+2025-12-05 16:56:40,174 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [20/1000] Train_MSE: 10314.045357 Val_MSE: 12531.156907 | Loss: 9200.913135
+2025-12-05 16:56:40,288 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [21/1000] Train_MSE: 9579.605712 Val_MSE: 11897.008228 | Loss: 9388.352539
+2025-12-05 16:56:40,400 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [22/1000] Train_MSE: 9233.314018 Val_MSE: 11676.340559 | Loss: 9332.724023
+2025-12-05 16:56:40,512 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [23/1000] Train_MSE: 9237.825248 Val_MSE: 11675.475973 | Loss: 9037.105420
+2025-12-05 16:56:40,624 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [24/1000] Train_MSE: 9197.075166 Val_MSE: 11218.505173 | Loss: 9220.189478
+2025-12-05 16:56:40,740 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [25/1000] Train_MSE: 9590.298393 Val_MSE: 11007.862894 | Loss: 9983.097021
+2025-12-05 16:56:40,743 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 25 with val_mse 11007.862894
+2025-12-05 16:56:40,856 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [26/1000] Train_MSE: 9186.261528 Val_MSE: 11144.253171 | Loss: 9063.674805
+2025-12-05 16:56:40,968 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [27/1000] Train_MSE: 9055.827706 Val_MSE: 11365.389088 | Loss: 8786.422021
+2025-12-05 16:56:41,080 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [28/1000] Train_MSE: 9209.915202 Val_MSE: 11589.258518 | Loss: 9152.019287
+2025-12-05 16:56:41,193 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [29/1000] Train_MSE: 9388.019643 Val_MSE: 11889.312800 | Loss: 9218.917187
+2025-12-05 16:56:41,308 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [30/1000] Train_MSE: 12721.239373 Val_MSE: 15405.808323 | Loss: 9244.752490
+2025-12-05 16:56:41,420 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [31/1000] Train_MSE: 13662.130952 Val_MSE: 15692.860932 | Loss: 9438.477686
+2025-12-05 16:56:41,541 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [32/1000] Train_MSE: 10063.946590 Val_MSE: 12423.796720 | Loss: 9016.583398
+2025-12-05 16:56:41,661 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [33/1000] Train_MSE: 9124.183242 Val_MSE: 11976.100557 | Loss: 8927.136621
+2025-12-05 16:56:41,775 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [34/1000] Train_MSE: 10589.710326 Val_MSE: 13566.602761 | Loss: 8969.272217
+2025-12-05 16:56:41,890 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [35/1000] Train_MSE: 9785.938598 Val_MSE: 12362.927444 | Loss: 8900.909570
+2025-12-05 16:56:42,025 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [36/1000] Train_MSE: 9099.666456 Val_MSE: 10974.277866 | Loss: 9565.816943
+2025-12-05 16:56:42,028 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 36 with val_mse 10974.277866
+2025-12-05 16:56:42,156 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [37/1000] Train_MSE: 10053.527986 Val_MSE: 12451.432994 | Loss: 9022.695850
+2025-12-05 16:56:42,280 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [38/1000] Train_MSE: 9461.579604 Val_MSE: 11855.392414 | Loss: 8637.786230
+2025-12-05 16:56:42,391 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [39/1000] Train_MSE: 10603.718334 Val_MSE: 13231.706180 | Loss: 9250.149561
+2025-12-05 16:56:42,506 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [40/1000] Train_MSE: 9215.319701 Val_MSE: 11887.642965 | Loss: 8806.216992
+2025-12-05 16:56:42,627 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [41/1000] Train_MSE: 8387.733549 Val_MSE: 10980.897451 | Loss: 8795.759912
+2025-12-05 16:56:42,742 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [42/1000] Train_MSE: 8836.071155 Val_MSE: 10795.431766 | Loss: 8458.582959
+2025-12-05 16:56:42,744 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 42 with val_mse 10795.431766
+2025-12-05 16:56:42,858 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [43/1000] Train_MSE: 9296.580126 Val_MSE: 11735.931766 | Loss: 8682.085645
+2025-12-05 16:56:42,982 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [44/1000] Train_MSE: 8604.377168 Val_MSE: 10931.264184 | Loss: 9043.962793
+2025-12-05 16:56:43,113 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [45/1000] Train_MSE: 8413.863129 Val_MSE: 10577.856349 | Loss: 8618.613477
+2025-12-05 16:56:43,116 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 45 with val_mse 10577.856349
+2025-12-05 16:56:43,236 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [46/1000] Train_MSE: 8267.280121 Val_MSE: 10556.476021 | Loss: 8550.514160
+2025-12-05 16:56:43,238 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 46 with val_mse 10556.476021
+2025-12-05 16:56:43,361 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [47/1000] Train_MSE: 8865.736098 Val_MSE: 11263.144821 | Loss: 8381.364453
+2025-12-05 16:56:43,488 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [48/1000] Train_MSE: 8371.535813 Val_MSE: 11007.981068 | Loss: 8643.293066
+2025-12-05 16:56:43,600 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [49/1000] Train_MSE: 10956.814636 Val_MSE: 13782.947507 | Loss: 8618.423145
+2025-12-05 16:56:43,716 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [50/1000] Train_MSE: 13841.495517 Val_MSE: 17091.744141 | Loss: 8680.110254
+2025-12-05 16:56:43,824 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [51/1000] Train_MSE: 15426.624126 Val_MSE: 18617.265818 | Loss: 8337.543994
+2025-12-05 16:56:43,929 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [52/1000] Train_MSE: 11225.579681 Val_MSE: 14395.324257 | Loss: 8495.597363
+2025-12-05 16:56:44,033 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [53/1000] Train_MSE: 8077.043036 Val_MSE: 10758.133567 | Loss: 8193.662061
+2025-12-05 16:56:44,139 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [54/1000] Train_MSE: 8364.954281 Val_MSE: 11243.519686 | Loss: 8040.637842
+2025-12-05 16:56:44,243 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [55/1000] Train_MSE: 8500.321625 Val_MSE: 10808.997360 | Loss: 8553.429297
+2025-12-05 16:56:44,352 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [56/1000] Train_MSE: 9377.989560 Val_MSE: 12179.353960 | Loss: 8619.572803
+2025-12-05 16:56:44,465 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [57/1000] Train_MSE: 8971.667511 Val_MSE: 11782.120543 | Loss: 8534.707129
+2025-12-05 16:56:44,580 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [58/1000] Train_MSE: 9341.992367 Val_MSE: 12181.948262 | Loss: 8347.628467
+2025-12-05 16:56:44,699 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [59/1000] Train_MSE: 8308.636259 Val_MSE: 10835.493203 | Loss: 8104.314062
+2025-12-05 16:56:44,814 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [60/1000] Train_MSE: 8322.070365 Val_MSE: 10717.265567 | Loss: 8377.235156
+2025-12-05 16:56:44,927 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [61/1000] Train_MSE: 12449.595255 Val_MSE: 15361.076887 | Loss: 8216.483057
+2025-12-05 16:56:45,042 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [62/1000] Train_MSE: 13025.154876 Val_MSE: 15529.532739 | Loss: 7798.153809
+2025-12-05 16:56:45,166 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [63/1000] Train_MSE: 10512.516509 Val_MSE: 13551.967609 | Loss: 8224.596680
+2025-12-05 16:56:45,299 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [64/1000] Train_MSE: 7971.498729 Val_MSE: 11260.451385 | Loss: 8117.698389
+2025-12-05 16:56:45,433 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [65/1000] Train_MSE: 8580.040772 Val_MSE: 11091.418104 | Loss: 8366.523096
+2025-12-05 16:56:45,581 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [66/1000] Train_MSE: 8400.269491 Val_MSE: 11075.977636 | Loss: 7974.812695
+2025-12-05 16:56:45,713 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [67/1000] Train_MSE: 8798.169919 Val_MSE: 12161.909982 | Loss: 7936.600391
+2025-12-05 16:56:45,826 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [68/1000] Train_MSE: 8206.901950 Val_MSE: 11529.345568 | Loss: 7810.278027
+2025-12-05 16:56:45,975 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [69/1000] Train_MSE: 8991.267649 Val_MSE: 11031.499062 | Loss: 8465.515503
+2025-12-05 16:56:46,097 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [70/1000] Train_MSE: 8052.266806 Val_MSE: 11592.640606 | Loss: 8268.273096
+2025-12-05 16:56:46,229 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [71/1000] Train_MSE: 10344.830475 Val_MSE: 13199.903997 | Loss: 7795.638135
+2025-12-05 16:56:46,360 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [72/1000] Train_MSE: 11289.720818 Val_MSE: 13563.558255 | Loss: 8039.344678
+2025-12-05 16:56:46,502 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [73/1000] Train_MSE: 9051.017325 Val_MSE: 11299.849619 | Loss: 7869.102588
+2025-12-05 16:56:46,678 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [74/1000] Train_MSE: 9025.153087 Val_MSE: 12812.395943 | Loss: 7930.567334
+2025-12-05 16:56:46,814 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [75/1000] Train_MSE: 8475.635819 Val_MSE: 11761.664121 | Loss: 7710.144385
+2025-12-05 16:56:46,946 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [76/1000] Train_MSE: 10333.693785 Val_MSE: 12719.081142 | Loss: 7565.030762
+2025-12-05 16:56:47,072 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [77/1000] Train_MSE: 16444.496023 Val_MSE: 19324.873820 | Loss: 7782.496143
+2025-12-05 16:56:47,190 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [78/1000] Train_MSE: 8956.783869 Val_MSE: 11263.928547 | Loss: 7805.433008
+2025-12-05 16:56:47,314 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [79/1000] Train_MSE: 9849.984236 Val_MSE: 12824.150545 | Loss: 7833.279736
+2025-12-05 16:56:47,450 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [80/1000] Train_MSE: 13550.055174 Val_MSE: 16882.575940 | Loss: 7476.991650
+2025-12-05 16:56:47,565 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [81/1000] Train_MSE: 8487.883887 Val_MSE: 11516.616482 | Loss: 7358.224927
+2025-12-05 16:56:47,678 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [82/1000] Train_MSE: 10338.043140 Val_MSE: 12436.288395 | Loss: 8064.181738
+2025-12-05 16:56:47,806 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [83/1000] Train_MSE: 8130.039559 Val_MSE: 10912.576017 | Loss: 7811.282764
+2025-12-05 16:56:47,929 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [84/1000] Train_MSE: 18491.624994 Val_MSE: 21231.366182 | Loss: 8079.339038
+2025-12-05 16:56:48,047 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [85/1000] Train_MSE: 12877.820998 Val_MSE: 15786.536752 | Loss: 7920.091309
+2025-12-05 16:56:48,174 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [86/1000] Train_MSE: 8316.922336 Val_MSE: 12153.848546 | Loss: 7380.392725
+2025-12-05 16:56:48,309 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [87/1000] Train_MSE: 7829.835543 Val_MSE: 11194.752166 | Loss: 7522.994727
+2025-12-05 16:56:48,427 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [88/1000] Train_MSE: 11650.902353 Val_MSE: 14113.399443 | Loss: 7450.148877
+2025-12-05 16:56:48,564 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [89/1000] Train_MSE: 16602.833370 Val_MSE: 19282.377156 | Loss: 7597.958984
+2025-12-05 16:56:48,680 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [90/1000] Train_MSE: 9211.957688 Val_MSE: 12120.285582 | Loss: 7829.095850
+2025-12-05 16:56:48,798 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [91/1000] Train_MSE: 9509.568944 Val_MSE: 12174.704382 | Loss: 7577.814844
+2025-12-05 16:56:48,908 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [92/1000] Train_MSE: 8590.928855 Val_MSE: 10489.146600 | Loss: 7238.174365
+2025-12-05 16:56:48,910 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 92 with val_mse 10489.146600
+2025-12-05 16:56:49,018 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [93/1000] Train_MSE: 36023.158197 Val_MSE: 36961.272084 | Loss: 7459.131104
+2025-12-05 16:56:49,155 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [94/1000] Train_MSE: 12578.011098 Val_MSE: 14910.354105 | Loss: 7832.870410
+2025-12-05 16:56:49,312 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [95/1000] Train_MSE: 14956.523143 Val_MSE: 18010.196995 | Loss: 7380.856543
+2025-12-05 16:56:49,476 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [96/1000] Train_MSE: 8984.119531 Val_MSE: 12100.678856 | Loss: 7406.095044
+2025-12-05 16:56:49,607 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [97/1000] Train_MSE: 9452.777613 Val_MSE: 11620.725683 | Loss: 8014.096484
+2025-12-05 16:56:49,728 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [98/1000] Train_MSE: 11890.530946 Val_MSE: 14783.449422 | Loss: 7583.036816
+2025-12-05 16:56:49,867 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [99/1000] Train_MSE: 10938.246401 Val_MSE: 12571.948658 | Loss: 7985.056348
+2025-12-05 16:56:50,002 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [100/1000] Train_MSE: 15503.935701 Val_MSE: 17545.364287 | Loss: 7430.036572
+2025-12-05 16:56:50,124 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [101/1000] Train_MSE: 8806.316393 Val_MSE: 11520.945719 | Loss: 7423.677393
+2025-12-05 16:56:50,277 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [102/1000] Train_MSE: 7767.300322 Val_MSE: 11237.741549 | Loss: 7020.993604
+2025-12-05 16:56:50,398 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [103/1000] Train_MSE: 8823.599894 Val_MSE: 11213.204691 | Loss: 7478.332666
+2025-12-05 16:56:50,524 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [104/1000] Train_MSE: 8620.822032 Val_MSE: 11127.416151 | Loss: 7194.965918
+2025-12-05 16:56:50,669 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [105/1000] Train_MSE: 11811.273783 Val_MSE: 13908.751731 | Loss: 7678.491650
+2025-12-05 16:56:50,789 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [106/1000] Train_MSE: 8652.614914 Val_MSE: 11498.436997 | Loss: 7687.898779
+2025-12-05 16:56:50,908 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [107/1000] Train_MSE: 9530.420218 Val_MSE: 13268.639735 | Loss: 7215.520410
+2025-12-05 16:56:51,025 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [108/1000] Train_MSE: 8395.228685 Val_MSE: 11012.661510 | Loss: 7865.095166
+2025-12-05 16:56:51,161 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [109/1000] Train_MSE: 8632.654659 Val_MSE: 10997.240766 | Loss: 7327.918311
+2025-12-05 16:56:51,278 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [110/1000] Train_MSE: 9722.306122 Val_MSE: 11942.218624 | Loss: 7263.597900
+2025-12-05 16:56:51,396 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [111/1000] Train_MSE: 15514.616163 Val_MSE: 17760.805722 | Loss: 7860.215967
+2025-12-05 16:56:51,518 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [112/1000] Train_MSE: 17522.180863 Val_MSE: 19728.664991 | Loss: 7541.496729
+2025-12-05 16:56:51,635 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [113/1000] Train_MSE: 11980.745405 Val_MSE: 14391.294777 | Loss: 7293.719629
+2025-12-05 16:56:51,753 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [114/1000] Train_MSE: 9239.682318 Val_MSE: 11904.436475 | Loss: 7132.762109
+2025-12-05 16:56:51,879 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [115/1000] Train_MSE: 9370.553554 Val_MSE: 12564.403388 | Loss: 7267.551025
+2025-12-05 16:56:51,998 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [116/1000] Train_MSE: 10299.855472 Val_MSE: 13240.647732 | Loss: 7212.407861
+2025-12-05 16:56:52,125 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [117/1000] Train_MSE: 26345.265734 Val_MSE: 28816.303624 | Loss: 7435.488623
+2025-12-05 16:56:52,248 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [118/1000] Train_MSE: 9807.987615 Val_MSE: 11992.336411 | Loss: 6917.286377
+2025-12-05 16:56:52,369 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [119/1000] Train_MSE: 8660.367322 Val_MSE: 11456.125058 | Loss: 6978.580176
+2025-12-05 16:56:52,497 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [120/1000] Train_MSE: 7903.576439 Val_MSE: 11741.261081 | Loss: 7739.433008
+2025-12-05 16:56:52,611 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [121/1000] Train_MSE: 8558.720340 Val_MSE: 11543.460696 | Loss: 6974.337622
+2025-12-05 16:56:52,735 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [122/1000] Train_MSE: 14700.595184 Val_MSE: 17199.294641 | Loss: 7396.870166
+2025-12-05 16:56:52,847 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [123/1000] Train_MSE: 18033.408789 Val_MSE: 19776.643980 | Loss: 7543.897168
+2025-12-05 16:56:52,963 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [124/1000] Train_MSE: 9070.336860 Val_MSE: 11534.562896 | Loss: 7146.911865
+2025-12-05 16:56:53,078 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [125/1000] Train_MSE: 7960.704233 Val_MSE: 10205.293520 | Loss: 6629.319287
+2025-12-05 16:56:53,080 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:244] - INFO: Best model saved at epoch 125 with val_mse 10205.293520
+2025-12-05 16:56:53,208 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [126/1000] Train_MSE: 9303.600235 Val_MSE: 11537.352259 | Loss: 7226.055713
+2025-12-05 16:56:53,331 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [127/1000] Train_MSE: 8297.086061 Val_MSE: 11435.694230 | Loss: 6491.235059
+2025-12-05 16:56:53,449 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [128/1000] Train_MSE: 9928.809013 Val_MSE: 12637.398882 | Loss: 6693.272998
+2025-12-05 16:56:53,565 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [129/1000] Train_MSE: 10933.997871 Val_MSE: 12679.503249 | Loss: 6674.407031
+2025-12-05 16:56:53,678 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [130/1000] Train_MSE: 10872.908728 Val_MSE: 14070.713161 | Loss: 7208.605493
+2025-12-05 16:56:53,787 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [131/1000] Train_MSE: 12955.943971 Val_MSE: 15988.189115 | Loss: 7252.445410
+2025-12-05 16:56:53,903 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [132/1000] Train_MSE: 18055.509401 Val_MSE: 20138.032285 | Loss: 6324.303638
+2025-12-05 16:56:54,019 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [133/1000] Train_MSE: 13760.832412 Val_MSE: 15880.813757 | Loss: 6765.449707
+2025-12-05 16:56:54,147 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [134/1000] Train_MSE: 11009.725620 Val_MSE: 13599.439182 | Loss: 6710.149902
+2025-12-05 16:56:54,276 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [135/1000] Train_MSE: 20531.234273 Val_MSE: 22529.459526 | Loss: 6551.400513
+2025-12-05 16:56:54,397 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [136/1000] Train_MSE: 34032.490523 Val_MSE: 35918.461692 | Loss: 6546.040820
+2025-12-05 16:56:54,514 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [137/1000] Train_MSE: 9080.486117 Val_MSE: 12051.195390 | Loss: 6765.593652
+2025-12-05 16:56:54,630 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [138/1000] Train_MSE: 12939.438236 Val_MSE: 14991.984056 | Loss: 7363.229736
+2025-12-05 16:56:54,737 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [139/1000] Train_MSE: 9688.914732 Val_MSE: 12206.025661 | Loss: 7148.934229
+2025-12-05 16:56:54,848 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [140/1000] Train_MSE: 9980.088236 Val_MSE: 12913.417186 | Loss: 6563.943506
+2025-12-05 16:56:54,968 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [141/1000] Train_MSE: 16390.668952 Val_MSE: 19136.853342 | Loss: 6978.242285
+2025-12-05 16:56:55,085 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [142/1000] Train_MSE: 29555.310252 Val_MSE: 32143.684696 | Loss: 6608.030469
+2025-12-05 16:56:55,201 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [143/1000] Train_MSE: 20852.817674 Val_MSE: 22925.440613 | Loss: 8319.047705
+2025-12-05 16:56:55,311 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [144/1000] Train_MSE: 12338.671500 Val_MSE: 14276.670502 | Loss: 7536.670605
+2025-12-05 16:56:55,430 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [145/1000] Train_MSE: 8413.454038 Val_MSE: 10930.387057 | Loss: 6884.898730
+2025-12-05 16:56:55,549 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [146/1000] Train_MSE: 8584.325317 Val_MSE: 10877.905012 | Loss: 6633.498340
+2025-12-05 16:56:55,670 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [147/1000] Train_MSE: 10689.712740 Val_MSE: 12883.633296 | Loss: 7141.073193
+2025-12-05 16:56:55,780 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [148/1000] Train_MSE: 13192.292399 Val_MSE: 15778.271301 | Loss: 6514.525928
+2025-12-05 16:56:55,899 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [149/1000] Train_MSE: 8419.359016 Val_MSE: 11486.405738 | Loss: 7062.643555
+2025-12-05 16:56:56,021 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [150/1000] Train_MSE: 10268.068111 Val_MSE: 12873.758064 | Loss: 7602.942187
+2025-12-05 16:56:56,139 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [151/1000] Train_MSE: 8601.102766 Val_MSE: 11803.600093 | Loss: 6851.688232
+2025-12-05 16:56:56,254 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [152/1000] Train_MSE: 7750.297602 Val_MSE: 11210.544632 | Loss: 6971.512354
+2025-12-05 16:56:56,369 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [153/1000] Train_MSE: 9426.527366 Val_MSE: 11985.775787 | Loss: 6281.391187
+2025-12-05 16:56:56,505 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [154/1000] Train_MSE: 11279.530139 Val_MSE: 13788.768071 | Loss: 6474.210962
+2025-12-05 16:56:56,632 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [155/1000] Train_MSE: 10011.086880 Val_MSE: 13348.645421 | Loss: 6546.540015
+2025-12-05 16:56:56,749 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [156/1000] Train_MSE: 14672.435643 Val_MSE: 17704.378249 | Loss: 7129.793896
+2025-12-05 16:56:56,869 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [157/1000] Train_MSE: 11644.502217 Val_MSE: 13959.300037 | Loss: 6547.795947
+2025-12-05 16:56:56,988 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [158/1000] Train_MSE: 8235.159119 Val_MSE: 11284.333153 | Loss: 6889.814502
+2025-12-05 16:56:57,105 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [159/1000] Train_MSE: 22806.052299 Val_MSE: 24591.880434 | Loss: 6539.012354
+2025-12-05 16:56:57,232 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [160/1000] Train_MSE: 12927.512967 Val_MSE: 15018.568408 | Loss: 6909.475244
+2025-12-05 16:56:57,349 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [161/1000] Train_MSE: 8628.091046 Val_MSE: 11913.103980 | Loss: 6324.320898
+2025-12-05 16:56:57,462 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [162/1000] Train_MSE: 10955.541690 Val_MSE: 13378.420115 | Loss: 6382.102563
+2025-12-05 16:56:57,575 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [163/1000] Train_MSE: 22504.500807 Val_MSE: 24229.523147 | Loss: 6973.474756
+2025-12-05 16:56:57,700 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [164/1000] Train_MSE: 27039.150128 Val_MSE: 28542.470645 | Loss: 6840.430518
+2025-12-05 16:56:57,846 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [165/1000] Train_MSE: 13258.792015 Val_MSE: 15694.559319 | Loss: 6501.937598
+2025-12-05 16:56:57,965 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [166/1000] Train_MSE: 14576.431570 Val_MSE: 16993.713422 | Loss: 6548.597119
+2025-12-05 16:56:58,084 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [167/1000] Train_MSE: 12259.050813 Val_MSE: 14519.963790 | Loss: 6616.216357
+2025-12-05 16:56:58,225 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [168/1000] Train_MSE: 12667.461594 Val_MSE: 14630.623898 | Loss: 6999.601416
+2025-12-05 16:56:58,345 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [169/1000] Train_MSE: 14889.745690 Val_MSE: 18055.948803 | Loss: 6047.975024
+2025-12-05 16:56:58,470 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [170/1000] Train_MSE: 10746.474558 Val_MSE: 13584.847511 | Loss: 6457.352539
+2025-12-05 16:56:58,595 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [171/1000] Train_MSE: 7807.558791 Val_MSE: 11245.520711 | Loss: 6670.461499
+2025-12-05 16:56:58,718 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [172/1000] Train_MSE: 8403.933344 Val_MSE: 11189.575833 | Loss: 6480.634546
+2025-12-05 16:56:58,838 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [173/1000] Train_MSE: 8277.500110 Val_MSE: 11481.164227 | Loss: 6899.959619
+2025-12-05 16:56:58,961 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [174/1000] Train_MSE: 8999.005376 Val_MSE: 11871.817015 | Loss: 6110.710205
+2025-12-05 16:56:59,077 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [175/1000] Train_MSE: 8676.278921 Val_MSE: 11628.112459 | Loss: 6864.580127
+2025-12-05 16:56:59,193 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [176/1000] Train_MSE: 14191.119807 Val_MSE: 16882.095732 | Loss: 6575.975317
+2025-12-05 16:56:59,324 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [177/1000] Train_MSE: 14693.586888 Val_MSE: 17236.165851 | Loss: 6395.770508
+2025-12-05 16:56:59,459 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [178/1000] Train_MSE: 10987.794893 Val_MSE: 13635.849880 | Loss: 6567.836865
+2025-12-05 16:56:59,592 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [179/1000] Train_MSE: 18066.739841 Val_MSE: 20095.670048 | Loss: 6127.628076
+2025-12-05 16:56:59,726 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [180/1000] Train_MSE: 13042.029463 Val_MSE: 15690.374623 | Loss: 6475.445898
+2025-12-05 16:56:59,846 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [181/1000] Train_MSE: 8548.813566 Val_MSE: 11538.412042 | Loss: 6245.769678
+2025-12-05 16:56:59,971 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [182/1000] Train_MSE: 11340.974200 Val_MSE: 14047.369701 | Loss: 6401.385913
+2025-12-05 16:57:00,081 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [183/1000] Train_MSE: 28901.287093 Val_MSE: 30170.473700 | Loss: 6916.872754
+2025-12-05 16:57:00,192 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [184/1000] Train_MSE: 21099.243680 Val_MSE: 23130.350402 | Loss: 7604.252686
+2025-12-05 16:57:00,315 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [185/1000] Train_MSE: 10386.191650 Val_MSE: 13802.622747 | Loss: 6253.835669
+2025-12-05 16:57:00,436 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [186/1000] Train_MSE: 12823.377036 Val_MSE: 15492.584178 | Loss: 6327.853662
+2025-12-05 16:57:00,543 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [187/1000] Train_MSE: 8166.867015 Val_MSE: 11645.159973 | Loss: 6590.426416
+2025-12-05 16:57:00,666 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [188/1000] Train_MSE: 9345.444477 Val_MSE: 11805.501093 | Loss: 6932.400195
+2025-12-05 16:57:00,800 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [189/1000] Train_MSE: 8254.503131 Val_MSE: 10814.281327 | Loss: 6537.133301
+2025-12-05 16:57:00,939 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [190/1000] Train_MSE: 8131.369009 Val_MSE: 11242.340298 | Loss: 6623.607690
+2025-12-05 16:57:01,083 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [191/1000] Train_MSE: 9546.000296 Val_MSE: 12101.522065 | Loss: 6341.412231
+2025-12-05 16:57:01,204 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [192/1000] Train_MSE: 8655.729507 Val_MSE: 12136.887995 | Loss: 6459.468457
+2025-12-05 16:57:01,328 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [193/1000] Train_MSE: 10178.030019 Val_MSE: 13991.568630 | Loss: 6319.471436
+2025-12-05 16:57:01,455 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [194/1000] Train_MSE: 8024.084600 Val_MSE: 11183.171653 | Loss: 6718.656982
+2025-12-05 16:57:01,578 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [195/1000] Train_MSE: 8716.571582 Val_MSE: 11463.129119 | Loss: 6188.470459
+2025-12-05 16:57:01,691 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [196/1000] Train_MSE: 12558.909858 Val_MSE: 14813.302348 | Loss: 6495.936011
+2025-12-05 16:57:01,810 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [197/1000] Train_MSE: 9531.826732 Val_MSE: 12337.465424 | Loss: 6012.478320
+2025-12-05 16:57:01,924 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [198/1000] Train_MSE: 7960.741635 Val_MSE: 11398.739045 | Loss: 6268.342798
+2025-12-05 16:57:02,035 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [199/1000] Train_MSE: 43926.125832 Val_MSE: 44754.585396 | Loss: 6521.600293
+2025-12-05 16:57:02,162 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [200/1000] Train_MSE: 22741.629188 Val_MSE: 25097.686378 | Loss: 6455.347559
+2025-12-05 16:57:02,286 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [201/1000] Train_MSE: 8866.036842 Val_MSE: 11430.002881 | Loss: 6522.044092
+2025-12-05 16:57:02,420 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [202/1000] Train_MSE: 9391.633405 Val_MSE: 11723.941522 | Loss: 6714.300220
+2025-12-05 16:57:02,570 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [203/1000] Train_MSE: 8556.207207 Val_MSE: 11169.831451 | Loss: 6927.884521
+2025-12-05 16:57:02,690 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [204/1000] Train_MSE: 7491.881116 Val_MSE: 10781.911761 | Loss: 6370.804541
+2025-12-05 16:57:02,812 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [205/1000] Train_MSE: 11051.806269 Val_MSE: 13605.246007 | Loss: 6508.166626
+2025-12-05 16:57:02,939 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [206/1000] Train_MSE: 12980.848031 Val_MSE: 15816.834545 | Loss: 6651.044897
+2025-12-05 16:57:03,075 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [207/1000] Train_MSE: 9382.669374 Val_MSE: 12104.576317 | Loss: 6756.823438
+2025-12-05 16:57:03,187 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [208/1000] Train_MSE: 18557.360585 Val_MSE: 20813.093740 | Loss: 6629.483203
+2025-12-05 16:57:03,306 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [209/1000] Train_MSE: 22460.294262 Val_MSE: 24892.616008 | Loss: 6974.895044
+2025-12-05 16:57:03,433 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [210/1000] Train_MSE: 16181.220280 Val_MSE: 18469.368841 | Loss: 6976.783374
+2025-12-05 16:57:03,546 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [211/1000] Train_MSE: 9058.267378 Val_MSE: 12524.425046 | Loss: 6125.207031
+2025-12-05 16:57:03,663 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [212/1000] Train_MSE: 8325.476969 Val_MSE: 11964.273370 | Loss: 6396.852783
+2025-12-05 16:57:03,794 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [213/1000] Train_MSE: 20417.207928 Val_MSE: 22658.662090 | Loss: 6463.488550
+2025-12-05 16:57:03,909 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [214/1000] Train_MSE: 16400.491105 Val_MSE: 18354.657497 | Loss: 6163.923633
+2025-12-05 16:57:04,028 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [215/1000] Train_MSE: 9630.379358 Val_MSE: 12582.290223 | Loss: 6465.795703
+2025-12-05 16:57:04,153 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [216/1000] Train_MSE: 7679.222759 Val_MSE: 10921.464428 | Loss: 6049.073950
+2025-12-05 16:57:04,267 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [217/1000] Train_MSE: 9247.745914 Val_MSE: 11750.961895 | Loss: 5958.478369
+2025-12-05 16:57:04,385 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [218/1000] Train_MSE: 9087.978253 Val_MSE: 10948.877717 | Loss: 6181.648291
+2025-12-05 16:57:04,515 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [219/1000] Train_MSE: 18913.640625 Val_MSE: 21186.171894 | Loss: 5859.760303
+2025-12-05 16:57:04,632 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [220/1000] Train_MSE: 28823.129098 Val_MSE: 30468.592744 | Loss: 6457.888184
+2025-12-05 16:57:04,750 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [221/1000] Train_MSE: 26235.167821 Val_MSE: 28517.435682 | Loss: 6340.735547
+2025-12-05 16:57:04,885 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [222/1000] Train_MSE: 13878.907239 Val_MSE: 16786.531859 | Loss: 6104.183398
+2025-12-05 16:57:04,999 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [223/1000] Train_MSE: 34936.631372 Val_MSE: 36757.775120 | Loss: 6486.071289
+2025-12-05 16:57:05,113 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [224/1000] Train_MSE: 26875.723985 Val_MSE: 28699.391205 | Loss: 5950.312183
+2025-12-05 16:57:05,232 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:234] - INFO: Epoch [225/1000] Train_MSE: 12649.299939 Val_MSE: 15149.225044 | Loss: 6208.413843
+2025-12-05 16:57:05,232 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:254] - INFO: Early Stopping
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:266] - INFO: Best model Accuracy for Tg, seed 42:
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:267] - INFO:   Train MSE: 7960.704427
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:268] - INFO:   Val MSE:   10205.293162
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:269] - INFO:   Test MSE:  9538.803408
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:285] - INFO: 
+=== Results for attribute Tg ===
+2025-12-05 16:57:05,294 - /home/kantorkristof/git/neurips-polymer/II_Experiment-Molecule/GNN/GAT.py[line:291] - INFO: Train MSE: 7960.704590  Val MSE: 10205.292969  Test MSE: 9538.803711

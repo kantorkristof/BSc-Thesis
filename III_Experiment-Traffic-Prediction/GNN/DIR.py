@@ -293,15 +293,15 @@ def compute_dir_loss(causal_out, non_causal_out, labels, alpha):
 ######################################################################
 
 def main():
-    parser = argparse.ArgumentParser(description='Training for Graph Regression with Causal Feature Learning (MAPE)')
-    parser.add_argument('--cuda', default=2, type=int, help='cuda device')
+    parser = argparse.ArgumentParser(description='Traffic')
+    parser.add_argument('--cuda', default=4, type=int, help='cuda device')
     parser.add_argument('--datadir', default='data', type=str, help='directory for datasets.')
     parser.add_argument('--epoch', default=1000, type=int, help='training iterations')
     parser.add_argument('--seed', nargs='?', default='[42]', help='random seed')
     parser.add_argument('--channels', default=64, type=int, help='width of network')
     parser.add_argument('--pretrain', default=0, type=int, help='pretrain epoch')
-    parser.add_argument('--alpha', default=1e-3, type=float, help='invariant loss')
-    parser.add_argument('--r', default=0.90, type=float, help='causal_ratio')
+    parser.add_argument('--alpha', default=1e-0, type=float, help='invariant loss')
+    parser.add_argument('--r', default=0.65, type=float, help='causal_ratio')
     parser.add_argument('--batch_size', default=32, type=int, help='batch size')
     parser.add_argument('--net_lr', default=1e-3, type=float, help='learning rate for the predictor')
     args = parser.parse_args()
@@ -332,7 +332,7 @@ def main():
         in_channels = sample_data.x.size(1)
         datetime_now = datetime.now().strftime("%Y%m%d-%H%M%S")
         experiment_name = f'{attribute_name}'
-        exp_dir = osp.join('DIR_results', experiment_name)
+        exp_dir = osp.join(f'DIR_results', experiment_name)
         os.makedirs(exp_dir, exist_ok=True)
         logger = Logger.init_logger(filename=exp_dir + '/_output_.log')
         logger.info(f"\nModel training started for property: {attribute_name} (MAPE metric)")
@@ -416,7 +416,7 @@ def main():
                     )
 
                     # Backpropagation
-                    causal_loss.backward()
+                    total_loss.backward()
                     model_optimizer.step()
 
                     epoch_total_loss += total_loss.item()

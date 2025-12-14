@@ -281,7 +281,7 @@ def compute_dir_loss(causal_out, non_causal_out, labels, alpha):
     spurious_pred_list = [non_causal_out]
     dir_penalty = compute_interventional_risk_variance(causal_pred_list, spurious_pred_list, labels)
     
-    total_loss = causal_loss + alpha * dir_penalty + spurious_loss
+    total_loss = causal_loss + alpha * dir_penalty
     
     return total_loss, causal_loss, dir_penalty, spurious_loss
 
